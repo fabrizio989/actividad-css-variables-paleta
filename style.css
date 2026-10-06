@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(34, 97, 117);
+}
+
+:root {
+    --principal: #222;
+    --secundario: #555;
+    --fondo: #eeeeee;
+}
+
+body {
+    background-color: var(--fondo);
+}
+
+h1 {
+    color: var(--principal);
+}
+
+p {
+    color: var(--secundario);
+}
+
+button {
+    background-color: var(--principal);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
